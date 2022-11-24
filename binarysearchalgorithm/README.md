@@ -5,4 +5,5 @@ When someone tells you to open a book at a specific page, what are most people g
 Here is a visualization of Binary Search Algorithm, when 7 is the target value.
 
 ![Binary Search Algorithm](https://upload.wikimedia.org/wikipedia/commons/8/83/Binary_Search_Depiction.svg)
-_Source: **Wikipedia**_
+<br/>
+_Source: [**Wikipedia**](https://en.wikipedia.org/wiki/Binary_search_algorithm)_
