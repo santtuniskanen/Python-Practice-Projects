@@ -1,32 +1,25 @@
-"""
-    Because I will use such a large list,
-    I want to time how long it takes 
-    for Python to run this function.
-"""
-
 # Creating a random list for the project
 import random
+
+
 randomlist = []
 for i in range(1, 1_000_000):
     # You can use underscores to make numbers readable
     n = random.randint(1, 99_999)
     randomlist.append(n)
-    
-"""
-ADDING MERGE SORT HERE OR SOMETHING
-"""
+        
 
 """
     The list is still fairly small for this example,
     since Binary Search can easily find the desired
     value in a list with a length in the millions 
     in under a second.
-    
-    EDIT: Nevermind, I am using almost one billion as the list size.
-    
-    EDIT 2: It took too long...
-"""
 
+
+    Because I will use such a large list,
+    I want to time how long it takes 
+    for Python to run this function.
+"""
 
 import time
 # Importing the time module and starting the timer
@@ -51,7 +44,7 @@ def binary_search(arr, x):
             return middle
     
     return -1 # Returning unsuccessful 
-        
+
 result = binary_search(randomlist, 50)        
 
 if result != -1:
