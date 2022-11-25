@@ -3,9 +3,6 @@
     I want to time how long it takes 
     for Python to run this function.
 """
-import time
-# Importing the time module and starting the timer
-start = time.time()
 
 # Creating a random list for the project
 import random
@@ -31,8 +28,9 @@ ADDING MERGE SORT HERE OR SOMETHING
 """
 
 
-
-
+import time
+# Importing the time module and starting the timer
+start = time.time()
 # Creating the function
 def binary_search(arr, x):
     """ The function takes two parameters; 
@@ -54,7 +52,7 @@ def binary_search(arr, x):
     
     return -1 # Returning unsuccessful 
         
-result = binary_search(notsorandomlist, 50)        
+result = binary_search(randomlist, 50)        
 
 if result != -1:
     print("Element is present at index", str(result))
