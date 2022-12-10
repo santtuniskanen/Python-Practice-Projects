@@ -3,7 +3,7 @@ import random
 
 
 randomlist = []
-for i in range(1, 1_000_000):
+for i in range(1, 100_000_000):
     # You can use underscores to make numbers readable
     n = random.randint(1, 99_999)
     randomlist.append(n)
